@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+}
